@@ -1,0 +1,16 @@
+Given an array of Strings arr[]. Use For-Each loop to print each string in the array in a new line.
+
+Examples:
+
+Input: arr[] = [ "Hello", "World", "Geeks", "For", "Geeks" ]
+Output:
+Hello
+World
+Geeks
+For
+Geeks
+Explanation: All Strings of array are printed in a new line.
+Input: arr[] = [ "Legends" ]
+Output:
+Legends
+Explanation: Only string is printed in a new line.
