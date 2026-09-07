@@ -1,0 +1,12 @@
+Given an array arr[] that contains integers. You need to decrement each element of the array by 1 and return the array.
+
+class Solution {
+    public static int[] decrementArray(int[] arr, int n) {
+        // code here
+        for(int i=0;i<n;i++){
+            arr[i]=arr[i]-1;
+            
+        }
+        return arr;
+    }
+}
