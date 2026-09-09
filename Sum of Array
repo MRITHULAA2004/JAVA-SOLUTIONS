@@ -1,0 +1,13 @@
+Given an integer array arr[], return the sum of all elements of arr.
+
+class Solution {
+    public int arraySum(int arr[]) {
+        // code here
+        int n=arr.length;
+        int sum=arr[0];
+        for(int i=1;i<n;i++){
+            sum+=arr[i];
+        }
+        return sum;
+    }
+}
